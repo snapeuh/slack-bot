@@ -22,12 +22,12 @@ You need to have a Slack token to connect the bot to your Slack. You can create 
 
 You'll be able to customize the username, avatar, and profile informations of your bot. More importantly you'll be able to see your API token. It looks like that : `xoxb-xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxx`.
 
-Open `slack-bot.js`. Look at the top of the file for `var token = 'YOUR_SLACK_TOKEN'` and replace *YOUR_SLACK_TOKEN* by your token (you need the keep the single quote around the key).
+Open `slack-bot.js`. Look at the top of the file for `var token = 'YOUR_SLACK_TOKEN'` and replace *YOUR_SLACK_TOKEN* by your token (you need the keep the single quotes around the token).
 
 You can also define other constants : 
 
-* `var auto_reconnect = true;`: Set to false to disable auto-reconnect on Slack errors
-* `var auto_mark_as_read = true;`: Set to false to disable auto-mark-as-read message after it is processed
+* `var auto_reconnect = true`: set to false to disable auto-reconnect on Slack errors
+* `var auto_mark_as_read = true`: set to false to disable auto-mark-as-read message after it is processed
 
 ## Usage
 
