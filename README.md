@@ -1,6 +1,6 @@
 # A simple Slack bot using NodeJS
 
-Here's a simple Slack bot using NodeJS and the [slack-client](https://github.com/slackhq/node-slack-client) node package. The repository is packaged to work on your local, distant and heroku-like environment (though I only tested Heroku).
+Here's a simple Slack bot using NodeJS and the [slack-client](https://github.com/slackhq/node-slack-client) node package. The repository is packaged to work on local & distant environments (on your server or Heroku for example).
 
 ## Features
 
@@ -31,8 +31,6 @@ You can also define other constants :
 
 ## Usage
 
-### Local
-
 Clone the repository, edit the configuration variables and run :
 
 ```
@@ -46,4 +44,6 @@ Connected to Slack. You are YOUR_BOT_NAME on YOUR_TEAM_SLACK_NAME
 ```
 
 If you point your browser to [http://localhost:8080](http://localhost:8080), it should output `Your Slack bot is up and running`.
+
+**You can use [forever](https://github.com/foreverjs/forever) to run and manage the Slack bot.**
 
