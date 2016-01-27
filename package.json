@@ -1,0 +1,16 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "A simple Slack bot using NodeJS",
+  "main": "slack-bot.js",
+  "scripts": {
+    "start": "node slack-bot.js"
+  },
+  "dependencies": {
+    "slack-client": "1.5.1"
+  },
+  "engines": {
+    "node": "0.10.25"
+  },
+  "license": "MIT"
+}
